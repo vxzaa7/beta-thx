@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+				content="IE=edge">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1.0">
+	<title>貝塔工程｜表單成功送出！</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		text-decoration: none;
+	}
+
+	main {
+		background-color: #fcfcfc;
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.beta__wrap {
+		background-image: url(./img/icon/whiteLogo.svg);
+		background-color: #fff;
+		background-repeat: no-repeat;
+		background-position: 80% 20%;
+		border: 2px #1b1b1b solid;
+		padding: 50px;
+		width: 50%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.beta__msg {
+		margin: 10px 0px;
+	}
+
+	a {
+		color: #093942;
+		transition: all 400ms ease;
+	}
+
+	a:hover {
+		color: darkorange;
+	}
+
+	@media screen and (max-width: 859px) {
+		.beta__wrap {
+
+			width: 80%;
+
+		}
+	}
+
+	@media screen and (max-width: 420px) {
+		.beta__wrap {
+
+			width: 90%;
+
+		}
+
+		.beta__msg h2 {
+			font-size: 1.1rem;
+		}
+
+		.beta__msg {
+			font-size: 0.9rem;
+		}
+	}
+</style>
+
+<body>
+	<main>
+		<article class="beta__wrap">
+			<img src="./img/icon/check-circle 1.svg"
+					 alt="">
+			<section class="beta__msg">
+				<h2>您的表單已成功送出！</h2>
+				<p>我們將於3-6天內進行回覆</p>
+			</section>
+
+			<a href="./index.html">返回BETA首頁</a>
+		</article>
+	</main>
+</body>
+
+</html>
